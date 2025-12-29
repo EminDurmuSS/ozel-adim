@@ -174,8 +174,8 @@ const Header = () => {
             })}
           </div>
 
-          {/* CTA Buttons */}
-          <div className="hidden md:flex items-center gap-3">
+          {/* CTA Buttons - Desktop Only */}
+          <div className="hidden lg:flex items-center gap-3">
             <motion.a
               href="tel:+905437205313"
               className="group relative px-5 py-2.5 rounded-xl font-semibold text-sm bg-white border-2 border-primary-200 text-primary-700 hover:border-primary-300 hover:bg-primary-50 transition-all duration-300 flex items-center gap-2 shadow-sm hover:shadow-md overflow-hidden"
@@ -204,7 +204,7 @@ const Header = () => {
             </motion.a>
           </div>
 
-          {/* Mobile Menu Button - Optimized */}
+          {/* Mobile Menu Button - Show on mobile and tablet */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             className="lg:hidden p-3 rounded-xl hover:bg-primary-50 active:bg-primary-100 transition-all duration-300 relative z-50"
