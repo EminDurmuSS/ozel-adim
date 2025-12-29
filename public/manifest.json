@@ -1,0 +1,29 @@
+{
+  "name": "Özel Adım - Kişiye Özel Tabanlık Merkezi",
+  "short_name": "Özel Adım",
+  "description": "Kişiye özel ortopedik tabanlık üretimi. Düz tabanlık, topuk dikeni, ayak ağrıları için profesyonel çözümler.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0ea5e9",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["health", "medical", "lifestyle"],
+  "lang": "tr",
+  "dir": "ltr",
+  "scope": "/",
+  "prefer_related_applications": false
+}
